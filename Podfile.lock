@@ -1,0 +1,41 @@
+PODS:
+  - ZegoExpressEngine (3.22.0)
+  - ZegoPluginAdapter (2.6.0)
+  - ZegoPrebuiltLog (1.1.0):
+    - ZIPFoundation
+  - ZegoUIKit (2.15.0):
+    - ZegoExpressEngine (>= 3.17.0)
+    - ZegoPluginAdapter (>= 2.6.0)
+    - ZegoPrebuiltLog (>= 1.1.0)
+    - ZegoUIKitReport (>= 0.2.10)
+  - ZegoUIKitPrebuiltCall (2.16.0):
+    - ZegoPrebuiltLog (>= 1.1.0)
+    - ZegoUIKit (>= 2.15.0)
+  - ZegoUIKitReport (0.5.1)
+  - ZIPFoundation (0.9.20)
+
+DEPENDENCIES:
+  - ZegoUIKitPrebuiltCall
+
+SPEC REPOS:
+  trunk:
+    - ZegoExpressEngine
+    - ZegoPluginAdapter
+    - ZegoPrebuiltLog
+    - ZegoUIKit
+    - ZegoUIKitPrebuiltCall
+    - ZegoUIKitReport
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  ZegoExpressEngine: c1b01551fc817e6fd32b3a877a9d15de6d93f68e
+  ZegoPluginAdapter: 4e2460436b28b33dacfc1668317c080c90201799
+  ZegoPrebuiltLog: d867b1da9d9cf23b8893e32ebf71feb386a3fb10
+  ZegoUIKit: d4f9a1c9ec6f51530df912e31820144c40c84236
+  ZegoUIKitPrebuiltCall: 8e3f3a0ee3b891f366aee64ffcd9e2e0fb4191eb
+  ZegoUIKitReport: 36f4bc9a02a4fdd5d1eda1bf665b42c54cbbfd89
+  ZIPFoundation: dfd3d681c4053ff7e2f7350bc4e53b5dba3f5351
+
+PODFILE CHECKSUM: 7f23fc5b76947848b4d22fa4627e2bea93b8985b
+
+COCOAPODS: 1.16.2
